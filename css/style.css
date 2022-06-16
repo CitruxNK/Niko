@@ -1,0 +1,126 @@
+body{
+  font-family: arial, helvetica;
+  background: #e8e8e8;
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+  background: #092327;
+  width: 100%;
+  margin: auto;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a:hover{
+  background: #ef8354;
+
+}
+
+.titulo1{
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.imagen1{
+margin: 10px auto;
+display: block;
+}
+
+.logo img{
+width: 50px;
+height: 50px;
+float: right;
+
+}
+
+.hope{
+margin: 10px auto;
+display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 40px;
+  color: white;
+  text-align: center;
+  background: #000000;
+}
+
+nav ul {
+  background: #00DAAC;
+  text-align: center;
+  list-style: none;
+  overflow: hidden;
+
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+  transition: all ease-in-out 250ms;
+}
+
+ul li:hover {
+  background: #000000;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hide {
+  padding: 16px;
+  font-size: 22px;
+  background: #000000;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  ul li {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  nav ul {
+  display: none;
+
+  }
+  .hope
+   text-align: center;
+{
+
+
+}
+
+}
